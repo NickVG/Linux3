@@ -1,0 +1,5 @@
+# Поиск удалённых файлов по inodes
+lsof |grep del
+
+# вывод информации о файле linux(including inodes)
+stat <filename>
